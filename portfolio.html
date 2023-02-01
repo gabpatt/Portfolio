@@ -4,74 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href= "pruebastyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href= "style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <title>Portafolio</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <a href="https://www.linkedin.com/in/gabriela-cpat/"><img class="icono" src="imágenes/linkedin.svg" alt="icono linkedin" width="40px" height="auto"></a>
-                <a href="https://github.com/gabpatt"><img class="icono" src="imágenes/github.svg" alt="icono github" width="40px" height="auto"></a>
-                <a href="#"><img class="icono" src="imágenes/instagram.svg" alt="icono instagram" width="40px" height="auto"></a>
-                
+    <header>
+        <a href="https://github.com/gabpatt"><img class="iconos" src="imagenes/github.svg" alt="logoGit"></a>
+        <a href="https://www.linkedin.com/in/gabriela-cpat/"><img class="iconos" src="imagenes/linkedin.svg" alt="logoLinkedin"></a>  
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="info">
+                <h1>Desarrolladora Web Front End</h1>
+                <h4>Gabriela Cortés Patiño</h4>
+                <div class="Perfil">
+                <img id="fotoPerfil" src="./imagenes/gaby.jpeg" class="img-fluid rounded-start" alt="foto de Gaby">
+                </div>
+            </div>
+            <div id="SobreMi">
+                <div >
+                    <h5>Sobre mi</h5> 
+                    <p>Desarrolladora Front End, apasionada por aprender  y aplicar nuevas habilidades y lenguajes de programación. Con habilidades blandas como trabajo en equipo, liderazgo y compromiso. </p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="relleno col-sm-12"> 
-                <img id="fotoperfil" src="imágenes/panda.png" alt="fotopanda" width="190px" height="auto">
-                <br>
-                <h1>Gabriela Cortés Patiño </h1>
-                <h3 class="aboutme">WEB DEVELOPER</h3>
-                
+
+        <div class="portafolio">
+            <div class="card mb-3" style="max-width: 940px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="Patts" src="./imagenes/homePatts.jpg" class="img-fluid rounded-start" alt="página Home de Pattsberry">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto Pattsberry</h5>
+                      <p class="card-text">Proyecto integrador del bootcamp Generation México, una e-commerce para un emprendimiento que hace productos personalizados y hechos a mano.
+                        Visita el repositorio de este proyecto:</p>
+                      <a href="https://github.com/gabpatt"><img class="iconos" src="imagenes/github.svg" alt="logo github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="card mb-3" style="max-width: 940px;">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Próximos proyectos...</h5>
+                            <p class="card-text">En construcción...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="panda" src="./imagenes/panda.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="relleno2 col-sm-12"> 
-                <h2>Acerca de mí </h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis totam culpa, nostrum vero officia quo omnis qui! Perferendis sunt distinctio omnis exercitationem error sapiente natus! Cupiditate sed doloremque in atque.</p>
+        </div>  
+        <footer class="contacto">
+            <h4>Contacto</h4>
+            <div id="Logs">
+            <a href="https://github.com/gabpatt"><img class="iconos" src="imagenes/github.svg" alt="logoGit"></a>
+            <a href="https://www.linkedin.com/in/gabriela-cpat/"><img class="iconos" src="imagenes/linkedin.svg" alt="logoLinkedin"></a>
             </div>
-        </div>
-        <div class="row row-cols-4">
-            <div class="relleno2 col-sm-4"> 
-                <h2>Portafolio</h2>
-                <img src="https://i0.wp.com/wokii.com/wp-content/uploads/2021/07/pandas-peligro-extincion-scaled.jpg?resize=1536%2C1024&ssl=1" alt="panda1"   id="img1">
-            </div>
-            <div class="relleno2 col-sm-4"> 
-                <h2>Portafolio</h2>
-                <img src="https://www.infobae.com/new-resizer/j8PUHCmbvToI115Td72VO17Jvbc=/768x432/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2016/09/06181535/panda1.jpg" alt="panda1"  id="img2">
-            </div>
-            <div class="relleno2 col-sm-4"> 
-                <h2>Portafolio</h2>
-                <img src="https://www.infobae.com/new-resizer/bRF8eBQD9j_NysZA0peedYOGWHg=/768x432/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/08/21143122/Chengdu-pandas-4.jpg" alt="panda1"  id="img3" >
-            </div>
-            <div class="relleno2 col-sm-4"> 
-                <h2>Portafolio</h2>
-                <img src="https://static01.nyt.com/images/2017/09/26/science/26TB-PANDA/26TB-PANDA-jumbo.jpg?quality=75&auto=webp" alt="panda1"  id="img4" >
-            </div>
-            <div class="relleno2 col-sm-4"> 
-                <h2>Portafolio</h2>
-                <img src="https://static01.nyt.com/images/2017/09/26/science/26TB-PANDA2/26TB-PANDA2-jumbo.jpg?quality=75&auto=webp" alt="panda1"  id="img5" >
-            </div>
-            <div class="relleno2 col-sm-4"> 
-                <h2>Portafolio</h2>
-                <img src="https://www.infobae.com/new-resizer/fBh7VShlImrvrnf9SuCzdfO4Ju4=/768x432/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/08/21143208/Chengdu-pandas.jpg" alt="panda1"  id="img6" >
-            </div>
-        </div>
-        <div class="row">
-            <div class="relleno2 col-sm-12"> 
-                <h2>Contacto</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis totam culpa, nostrum vero officia quo omnis qui! Perferendis sunt distinctio omnis exercitationem error sapiente natus! Cupiditate sed doloremque in atque.</p>
-            </div>
-        </div>
-    </div>
+            
+        </footer>
+    </main>
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,71 @@
+*{
+  
+}
+
+header{
+    background-color: #e48897;
+    opacity: .5;
+    height: fit-content;
+    width: 100%;
+}
+body {
+    background-image: url(imagenes/fondoportafolio.jpg);
+}
+.container{
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+#info{
+    width: 70%;
+    height: fit-content;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background-color: #f8dbdd;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.Perfil{
+    border-radius: 30px;
+}
+#fotoPerfil{
+    width: 200px ;
+    border-radius: 30px;
+    
+}
+
+#SobreMi{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e48897;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.iconos{
+    width: 40px;
+    height: auto;
+}
+.portafolio{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+#panda{
+    width: 200px;
+}
+#Patts{
+    width: 300px;
+}
